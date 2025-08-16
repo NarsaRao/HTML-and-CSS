@@ -1,0 +1,47 @@
+    .videotitle{
+        font-family:Roboto;
+        font-size:20px;
+        font-weight:bold;
+        width:300px;
+        line-height:24px;
+       margin-bottom:14px;
+    }
+    .videostats{
+        font-size:14px;
+         color:rgb(96,96,96);
+         margin-top:0;
+         margin-bottom:20px;
+    }
+    .videochannel{
+        font-size:14px;
+         color:rgb(96,96,96);
+         margin-top:0;
+         margin-bottom:20px;
+         font-family:Arial;
+
+    }
+    .videodescription{
+        font-size:14px;
+         color:rgb(96,96,96);
+         margin-top:0;
+         margin-bottom:20px; 
+         width:280px;
+         font-family:Arial;
+         line-height:22px;
+
+
+    }
+    .shop{
+       
+        padding-top:15px;
+        padding-bottom:15px;
+        color:white;
+        font-size:14px;
+        text-align:center;
+        background-color: rgb(195, 18, 18) ;
+    }
+    .spanex:hover{
+        text-decoration: underline;
+        cursor:pointer;
+    }
+
