@@ -33,7 +33,7 @@
         font-size:14px;
          color:rgb(96,96,96);
          margin-top:0;
-         margin-bottom:20px; 
+   
          width:280px;
          font-family:Arial;
          line-height:22px;
@@ -41,37 +41,56 @@
 
     }
     .thumbnail-1{
-        width:300px;
-        
-        display:block;
+        width:100%;
     }
     
     .videopreview{
-       width:300px;
-       display:inline-block;
-       vertical-align: top;
-       margin-right: 15px;
+    
+       
+       
        border-color: black;
        border-style: solid;
       
     }
     .dp{
         margin-top:8px;
-        width:30px;
-        border-radius: 15px;
+        width:40px;
+        border-radius: 20px;
     }
-    .dpcontain{
-        display:inline-block;
-        width:30px;
-        height:146px;
-    }
-    .videoinfocontain{
-        display:inline-block;
-        vertical-align: top;
-        width:260px;
-        margin-left:4px;
-    }
+    
+    
     .thumb{
         margin-bottom:6px;
     }
+    .videoinfogrid{
+        display:grid;
+        grid-template-columns: 50px 1fr;
+    }
+    .videogrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .header{
+        height:50px;
+        display:flex;
+        justify-content: space-between;
+       }
+       .first{
+        width:250px;
+        background-color: lightblue;
+       }
+       .second{
+        flex:1;
+        background-color: lightpink;
+        margin-left: 55px;
+        margin-right: 30px;
+        max-width: 500px;
+       }
+       .third{
+        width:250px;
+        background-color: lightgreen;
+        
+       }
 
