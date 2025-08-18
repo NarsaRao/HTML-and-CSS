@@ -1,5 +1,22 @@
+    body{
+        margin: 0;
+    }
     .search{
-       display:block;
+       display:flex;
+       flex:1;
+       height:37px;
+       background-color: rgb(255, 247, 247);
+       border-width:1px;
+       border-style:solid;
+       border-color:rgb(182, 181, 181);
+       border-radius: 2px;
+       box-shadow:inset 1px 2px 5px rgba(0,0,0.0.10);
+    }
+    .search::placeholder{
+        font-family:Roboto,Arial;
+        font-size:16px;
+        padding-left:10px;
+
     }
     
     .videotitle{
@@ -78,15 +95,53 @@
         justify-content: space-between;
        }
        .first{
-        width:250px;
-        background-color: lightblue;
+       
+        display:flex;
+        align-items: center;
+       }
+       .hamburger{
+        height:30px;
+
+        margin-left:20px;
+       }
+       .logo{
+        height:30px;
+        margin-left:30px;
        }
        .second{
+        display:flex;
+        flex-direction: row;
         flex:1;
-        background-color: lightpink;
         margin-left: 55px;
         margin-right: 30px;
-        max-width: 500px;
+        max-width: 600px;
+        align-items:center;
+       }
+       .searchbutton{
+        height:40px;
+        width:40px;
+        border-width:1px;
+        border-style:solid;
+        border-color:rgb(178, 178, 178);
+        border-radius:2px;
+        margin-left:-1px;
+        margin-right:10px;
+    
+       }
+       .micbutton{
+        height:40px;
+        width:40px;
+        border-radius:20px;
+        border:none;
+        background-color: rgb(255, 247, 247);
+        
+       }
+       .search-icon{
+        height:30px;
+        width:30px;
+        align-self: center;
+        margin-right:4px;
+        margin-left:-1px;
        }
        .third{
         width:250px;
