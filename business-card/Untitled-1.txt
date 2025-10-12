@@ -1,0 +1,8 @@
+./ from the same directory 
+../ from the paren t directory
+
+good alt texts:
+    dont include image of 
+    be consise(125)
+    
+
