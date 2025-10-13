@@ -1,0 +1,47 @@
+body{
+    color:rgb(134, 134, 238);
+    font-family: orbitron;
+    text-align:center;
+
+}
+.spacex{
+    width:200px;
+    margin-bottom:0;
+}
+.apply{
+    padding:5px 10px;
+    background:white;
+    border:none;
+    color:black;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-family: orbitron;
+
+
+}
+.explore{
+    padding:5px 10px;
+    border:none;
+    color:red;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-family: orbitron;
+
+}
+.Terms{
+    font-family:orbitron;
+    font-size:20px;
+    color:rgb(134, 134, 238);
+    text-align:center;
+    padding:20px 40px;
+}
+.hero{
+    background-image:url('images/gal.webp');
+    background-size:cover;
+    padding:20px 40px;
+    text-shadow:10px 5px 5px black;
+}
+
+    
