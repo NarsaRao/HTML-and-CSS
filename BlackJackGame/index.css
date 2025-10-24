@@ -31,3 +31,13 @@ h1{
     font-weight:bold;
     font-size:20px;
 }
+#newcard-el{
+    color:green;
+    background-color: goldenrod;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:10px;
+}
