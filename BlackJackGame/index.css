@@ -41,3 +41,7 @@ h1{
     font-size:20px;
     margin-top:10px;
 }
+#player-el{
+    font-style:italic;
+    color:white;
+}
