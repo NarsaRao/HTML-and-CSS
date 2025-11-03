@@ -8,7 +8,9 @@ inputBtn.addEventListener("click",function(){
     inputEl.value="";
 })
 function renderLeads(){
-        let listItems="<li>" + inputEl.value +"</li>";
+        let listItems=`<li>
+        <a href='${inputEl.value}'>${inputEl.value}</a>
+        </li>`;
         ulEl.innerHTML+=listItems;
 
 }
