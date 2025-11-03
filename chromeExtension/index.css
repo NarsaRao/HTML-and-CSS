@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+input{
+    width:100%;
+    box-sizing:border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-color: aqua;
+    font-size: 20px;
+    margin-bottom:2px;
+
+
+}
+button{
+    width:50%;
+    box-sizing:border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    font-size: 20px;
+    background-color:rgb(4, 161, 4);
+    color:white;
+    font-weight:bold;
+
+}
+#ul-el{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
