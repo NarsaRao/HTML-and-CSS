@@ -1,0 +1,35 @@
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+span img{
+    height:20px;
+    padding-left:3px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    display: flex;               /* use flexbox inside the div if needed */
+    flex-direction: column;      /* stack child elements vertically */
+    justify-content: center;     /* center content vertically inside the div */
+    align-items: center;         /* center content horizontally inside the div */
+   border-color:black;
+    width: 400px;
+    height: 400px;               /* corrected from 'length' */
+    text-align: center;
+    margin: 50px auto; 
+    border-radius: 15px; 
+    background-color: aliceblue;        /* center div horizontally and add some vertical spacing */
+}
+
+body {
+    background-color:cadetblue;
+    text-align: center;
+    display: flex;               /* make body a flex container */
+    justify-content: center;     /* center div horizontally */
+    align-items: center;         /* center div vertically */
+    height: 100vh;               /* full viewport height to allow vertical centering */
+}
